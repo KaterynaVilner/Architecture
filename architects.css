@@ -1,0 +1,287 @@
+
+    * {
+  box-sizing: border-box;
+}
+    .container {
+    background-image: url(images/background-brickwall.jpg);
+    height: auto;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    }
+    .header {
+    background-color: #FFDEAD;
+    height: 120px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+   }
+   @media (max-width: 850px){.header{width: 90%;}}
+
+    .nav-bar {
+    background-color: transparent;
+    height: 50px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    border-radius: 10px;
+      
+    }
+    .button{
+    background-color: #c89460;
+    width: 12%;
+    margin-left: .5%;
+    height: 100%;
+    text-align: center;  
+    float: left;
+    border: 1px solid rgb(125, 32, 32);
+    border-radius: 10px; 
+    }
+    .button>a {color: #FDF5E6;text-decoration: none;}
+    @media (min-width: 950px){.button{font-size: 20px;}}
+    @media (max-width: 650px){.button{ width:24%; height: 48%; margin-left: 1%;} .nav-bar{height:100px;}}
+    
+          
+    .article {
+    background-color: #FFE4B5;
+    height: auto;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    padding-left: 2%;
+    padding-right: 1%;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    }
+    .article>h2{color: DarkRed;}
+    p{color:DarkRed;}
+    h3{color: maroon;}
+
+    .footer {
+    background-color: #FDF5E6;
+    height: auto;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding-top: 5px;
+    }
+    .footer>table{margin-left: auto;margin-right: auto;}
+    td{text-align: center; padding-left: 10px;padding-right: 10px; }
+    td>a{color: #cf1818;text-decoration: none;}
+    @media (min-width: 950px){td{font-size: larger; font-weight: 600; height: 40px;}}
+    @media (max-width: 640px){td{font-size: smaller;}}
+    @media (max-width: 570px){td{font-size: x-small;}}
+    @media (max-width: 480px){.footer>table{display: none;}.footer{background-color: transparent;}}
+
+    a:hover {
+    color: rgb(224, 121, 37);
+    background-color: transparent;
+    text-decoration: underline;
+    }
+
+    .responsive {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* This is the header and logo _________________________________________________________________________________________*/
+
+   .img-logo {
+    height: auto;
+    width: 17%;    
+    float: right;
+    }
+    .img-logo1 {
+        height: auto;
+        width: 17%;    
+        float: left;
+        }
+            
+    .h1-header {  
+    height: 120px;
+    width: 23%;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Outfit', sans-serif;
+    }
+    .h1-header>h1{color: #B22222;}
+
+    
+    /* These are the Home, About Us and Staff pages_____________________________________________________________________________ */
+
+    .img-container {
+        background-color: #e4b27f;
+        width: 43%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+        text-align: center;
+        display: block;
+        border-radius: 10px;
+        box-shadow: 8px 8px 9px 5px #454132;
+    }
+    @media(max-width: 800px){.img-container{width: 80%;}}
+    @media (max-width: 500px){.img-container{box-shadow: none;} .img-container1{box-shadow: none;} }
+    .img-container1 {
+        background-color: #e4b27f;
+        width: 70%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 15px;
+        text-align: center;
+        display: block;
+        border-radius: 10px;
+        margin-top: 8px;
+        box-shadow: 8px 8px 9px 5px #454132;
+    }
+
+     /* This is the services page____________________________________________________________________________________________ */
+
+     .ser-col1 {
+        background-color: #e4b27f;
+        width:46%;  
+        padding: 2%;
+        font-size: larger;
+        border-radius: 10px;
+        box-shadow: 8px 8px 9px 5px #454132; 
+    }
+    .ser-col2 {
+        background-color: #e4b27f;
+        width:46%;
+        padding: 2%;
+        font-size: larger; 
+        border-radius: 10px;
+        box-shadow: 8px 8px 9px 5px #454132;  
+    }
+    
+    .flex-container { 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;       
+    }
+    @media (max-width: 850px) {.flex-container {flex-direction: column;} .ser-col1{margin-bottom: 3%;width: 96%;margin-left: 1%;}
+     .ser-col2{width: 96%; margin-left: 1%;}}
+    @media (max-width: 500px){.ser-col1{box-shadow: none;} .ser-col2{box-shadow: none;}}
+    
+    /* This is the Portfolio page___________________________________________________________________________________________ */
+
+    .slideshow{
+     background-color: #e4b27f;   
+     width: 35%;
+     height: 60%;
+     margin-top: 5%; 
+     padding: 2%;
+     border-radius: 10px;
+     box-shadow: 8px 8px 9px 5px #454132;  
+    }
+    .colon1{
+    background-color: #e4b27f;
+    width: 54%;      
+    border: 10px solid #e4b27f; 
+    margin: 5%;
+    border-radius: 10px;
+    box-shadow: 8px 8px 9px 5px #454132;  
+    }
+    .flex-container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    }
+    @media (max-width: 900px) {.flex-container1 {flex-direction: column;align-items: center;} 
+    .slideshow{width: 90%;margin: auto; margin-bottom: 3%;} .colon1{width: auto;}}
+    @media (min-width : 650px) and (max-width : 900px){.slideshow{padding-left: 12%;}}
+    
+    /* This is the Green initiative page_______________________________________________________________________________________ */
+
+    #img-green {
+    background-color: #e4b27f;
+    width: 55%;
+    height: 70%;
+    padding: 2%;
+    border-radius: 10px;
+    box-shadow: 8px 8px 9px 5px #454132;
+    }
+    #art-green {
+    background-color: #e4b27f;
+    width: 40%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 2%;
+    border-radius: 10px;
+    box-shadow: 8px 8px 9px 5px #454132;
+    }
+
+    .flex-container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    }
+    @media (max-width: 900px) {.flex-container2 {flex-direction: column-reverse;;align-items: center;} 
+    #art-green{margin-bottom: 3%;width: auto;} #img-green{width: auto;}}
+  
+    /* This is the Interior design page______________________________________________________________________________________ */
+  
+      .int1 {
+          background-color: #e4b27f;
+          padding: 2%;
+          margin-right: 2%;
+          margin-bottom: 2%;
+          border-radius: 10px;
+          box-shadow: 8px 8px 9px 5px #454132;
+      }
+
+      .flex-container3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        }
+        @media(max-width:685px){.int1{width: 90%;}}
+
+       /* This is the Contact Us page___________________________________________________________________________________________ */
+
+    #contact {
+        background-color: #e4b27f;
+        height: 50%;
+        font-size: larger;
+        text-align: center; 
+        padding: 2%;
+        border-radius: 10px;
+        box-shadow: 8px 8px 9px 5px #454132;
+    }
+    .map {
+        position: relative;
+        background-color: #e4b27f;
+        padding: 2%;
+        border-radius: 10px;
+        box-shadow: 8px 8px 9px 5px #454132;
+    }
+    iframe{width:600px; height:450px;}
+    @media(max-width:1080px){#contact{width: 78%;}}
+    @media(max-width:800px)and (min-width : 650px){iframe{width:450px;}}
+    @media(max-width:649px)and (min-width : 480px){iframe{width:350px;}}
+    @media(max-width:479px){iframe{width:250px; height: 250px;} .map, #contact{ box-shadow: none;}}
+
+    .flex-container4 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        }
+
+   
