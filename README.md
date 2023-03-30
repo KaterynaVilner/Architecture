@@ -1,5 +1,5 @@
 # Architecture
-The Architecture web site is a fully responsive website, using flexboxes and @media queries.
+The Architecture  is a fully responsive website, using flexboxes and @media queries.
 There are two navigations on the page. One is on the top of the page (buttons) and the second one on 
 the bottom of the page(a table). The websites corespond to this requirments:
 
