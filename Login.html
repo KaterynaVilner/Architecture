@@ -11,6 +11,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Ubuntu:500' rel='stylesheet' type='text/css'>
+    <script
+  src="https://code.jquery.com/jquery-3.6.4.min.js"
+  integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+  crossorigin="anonymous"></script>
+<script src='main.js'></script>
     <style>
         .login {
             background-color: #e4b27f;
@@ -74,7 +79,7 @@
 
 
         /*Media Querie*/
-        @media only screen and (min-width : 150px) and (max-width : 530px) {
+        @media only screen and (min-width : 150px) and (max-width : 400px) {
             .login-header {
                 font-size: 100%;
             }
@@ -88,7 +93,7 @@
                 margin: 10px 0;
             }
 
-            .login-button {
+            .login-button1 {
                 margin-bottom: 10px;
             }
         }
@@ -106,16 +111,25 @@
             </div>
         </div>
 
-        <div class="nav-bar">
-            <button class="button"><a href="index.html"> Home</a></button>
-            <button class="button"><a href="about-us.html"> About us</a></button>
-            <button class="button"><a href="servises.html"> Services</a></button>
-            <button class="button"><a href="portfolio.html"> Portfolio</a></button>
-            <button class="button"><a href="staff.html"> Staff</a></button>
-            <button class="button"><a href="green-initiotive.html"> Green Initiative</a></button>
-            <button class="button"><a href="interior-design.html"> Interior design</a></button>
-            <button class="button"><a href="contact-us.html"> Contact Us</a></button>
-        </div>
+        <nav>
+            <div class ="menu">
+             <span class='menu-button'><a href="">Menu</a></span>
+             <span class='login-button'><a href="Login.html" >Login</a></span>
+             <span class="signUp-button"><a href="SignUp.html">Sign Up</a></span>  
+            </div>
+           </nav>
+            <div class='nav-menu hide'>
+               <ul>
+                 <li><a href="index.html" > Home</a></li>
+                 <li><a href="about-us.html" > About Us</a></li>
+                 <li><a href="servises.html" > Services</a></li>
+                 <li><a href="portfolio.html" > Portfolio</a></li>
+                 <li><a href="staff.html" > Staff</a></li>
+                 <li><a href="green-initiotive.html" > Green Initiative</a></li>
+                 <li><a href="interior-design.html" > Interior design</a></li>
+                 <li><a href="contact-us.html" > Contact Us</a></li>
+               </ul>
+           </div> 
 
         <div class="article">
             <div class="login">
@@ -128,26 +142,22 @@
                     <h3>Password:</h3>
                     <input id="password" onmouseenter="this.style.backgroundColor='orange'" onmouseout="unfocus()" type="password" placeholder="Password" />
                     <br>
-                    <input type="button" onclick="clickevent1()" value="Login" class="login-button" />
+                    <input type="button" onclick="clickevent1()" value="Login" class="login-button1" />
                     <br>
                     <a href="SignUp.html" class="sign-up">Sign Up!</a>
                 </div>
             </div>
         </div>
 
-        <div class="footer">
-            <table>
-                <tr>
-                    <td><a href="index.html"> Home</a></td>
-                    <td><a href="about-us.html"> About us</a></td>
-                    <td><a href="servises.html"> Services</a></td>
-                    <td><a href="portfolio.html"> Portfolio</a></td>
-                    <td><a href="staff.html"> Staff</a></td>
-                    <td><a href="green-initiotive.html"> Green Initiative</a></td>
-                    <td><a href="interior-design.html"> Interior design</a></td>
-                    <td><a href="contact-us.html"> Contact Us</a></td>
-                </tr>
-            </table>
+        <div class="nav-bar">
+            <button class="button"><a href="index.html"> Home</a></button>
+            <button class="button"><a href="about-us.html"> About us</a></button>
+            <button class="button"><a href="servises.html"> Services</a></button>
+            <button class="button"><a href="portfolio.html"> Portfolio</a></button>
+            <button class="button"><a href="staff.html"> Staff</a></button>
+            <button class="button"><a href="green-initiotive.html"> Green Initiative</a></button>
+            <button class="button"><a href="interior-design.html"> Interior design</a></button>
+            <button class="button"><a href="contact-us.html"> Contact Us</a></button>
         </div>
 
     </div>
