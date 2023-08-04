@@ -1,14 +1,13 @@
 # Architecture
 The Architecture  is a fully responsive website, using flexboxes and @media queries.
-There are two navigations on the page. One is on the top of the page (buttons) and the second one on 
-the bottom of the page(a table). The websites corespond to this requirments:
+There are two navigations on the page. One is on the top of the page (dropdown menu) made with jQuery and the second one on 
+the bottom of the page(buttons). The websites corespond to this requirments:
 
 
 HTML
 
 Have at least 3 pages, keep the grid system consistent as much as possible
 Use at least 10 different HTML tags
-Use HTML tables
 Implement at least two uses for forms
 Dropped Down Menu 
 Use web fonts
